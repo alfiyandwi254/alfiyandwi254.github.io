@@ -31,6 +31,9 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add this link in the <head> section of your HTML -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 <body>
 
@@ -62,11 +65,11 @@
                     <div id="logo">
 
                         <!--Logo that is shown on the banner-->
-                        <img src="images/ALFIYAN.png" id="banner-logo" alt="Landing Page"/>
+                        <img src="images/portfolio.png" id="banner-logo" alt="Landing Page"/>
                         <!--End of Banner Logo-->
 
                         <!--The Logo that is shown on the sticky Navigation Bar-->
-                        <img src="images/ALFIYAN.png" id="navigation-logo" alt="Landing Page"/>
+                        <img src="images/portfolio.png" id="navigation-logo" alt="Landing Page"/>
                         <!--End of Navigation Logo-->
 
                     </div>
@@ -99,10 +102,7 @@
                             </li>
                             <li>
                                 <a href="#about">About</a>
-                            </li>
-                            <li>
-                                <a href="#gallery">Gallery</a>
-                            </li>
+                            </li>  
                             <li>
                                 <a href="#services">Projects</a>
                             </li>
@@ -144,10 +144,10 @@
                     <div class="section-heading">
                         <h3>INTRODUCTION</h3>
                         <h2 class="section-title">About Me</h2>
-                        <p class="section-subtitle">Hi, I'm Alfiyan Dwi Ariyanto, you can call me Alfiyan or Kunto. Fresh out of IPB University at November 2023
-                            with a degree in Computer Science. Now I'm doing internship at PT Etana Biotechnologies Indonesia as IT
-                            Helpdesk Support. My job desk is mostly troubleshooting and repairing, but sometimes I’m asking for a task
-                            from other divisions of IT to gain a new skills, such as programming or data cleansing.</p>
+                        <p class="section-subtitle"> Hi, I'm Alfiyan Dwi Ariyanto, but you can call me Alfiyan. I’m a Computer Science graduate from IPB University
+                            and currently an intern at PT Etana Biotechnologies Indonesia as a System Developer. My responsibilities
+                            include updating data sales and stock to the database, writing SQL queries, and developing or updating
+                            dashboards using Power BI</p>
                     </div>
 
                 </div>
@@ -158,7 +158,7 @@
                     <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
                         <!--Icon-->
                         <div class="icon">
-                            <i class="fa fa-git fa-3x"></i>
+                            <i class="fab fa-github fa-3x"></i>
                         </div>
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
@@ -177,7 +177,7 @@
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
                             <h4>SQL</h4>
-                            <p>Basic syntax SQL, such as Data Manipulation Language, etc.</p>
+                            <p>Able to write complex queries, joins, subqueries, CTE, store procedure, views and aggregate functions.</p>
                         </div>
                     </div>
                     <!--End of Icon Block-->
@@ -191,7 +191,7 @@
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
                             <h4>Python</h4>
-                            <p>Basic logic and basic syntax of Python</p>
+                            <p>Basic logic and basic syntax of Python.</p>
                         </div>
                     </div>
                     <!--End of Icon Block-->
@@ -200,12 +200,12 @@
                     <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
                         <!--Icon-->
                         <div class="icon">
-                            <i class="fa fa-wrench fa-3x"></i>
+                            <i class="fas fa-chart-line fa-3x"></i>
                         </div>
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
-                            <h4>Troubleshooting</h4>
-                            <p>Diagnose and resolve hardware and software issues</p>
+                            <h4>Analytics</h4>
+                            <p>Perform data analysis and present the results in a dashboard.</p>
                         </div>
                     </div>
                     <!--End of Icon Block-->
@@ -219,8 +219,8 @@
         <!--End of Introduction-->
 
 
-        <!--Gallery-->
-        <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
+        <!-- Gallery-->
+        <!-- <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
                  data-featherlight-filter="a">
 
                 <a href="images/butterfly.svg" data-featherlight="image" class="col-3 wow fadeIn"
@@ -236,15 +236,14 @@
                 <a href="images/orangutan.svg" data-featherlight="image" class="col-3 wow fadeIn"
                    data-wow-delay="0.7s"><img src="images/orangutan.svg" alt="Landing Page"/></a>
 
-        </aside>
-        <!--End of Gallery-->
+        </aside> -->
+        <!--End of Gallery -->
 
 
         <!--Content Section-->
         <div id="services" class="scrollto clearfix">
 
             <div class="row no-padding-bottom clearfix">
-
 
                 <!--Content Left Side-->
                 <div class="col-3">
@@ -262,9 +261,39 @@
                 <div class="col-3">
                     <div class="section-heading">
                         <h3>PROJECT</h3>
-                        <h2 class="section-title">Simple Web Scrapping</h2>
-                        <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+                        <h2 class="section-title">Dashboard Using PowerBI</h2>
+                        <p class="section-subtitle">This project is based on a Chocolate Sales dataset that I get from Kaggle.
+                            You can see and download the dataset from 
+                            <a href="https://www.kaggle.com/datasets/atharvasoundankar/chocolate-sales">here</a>
+                        </p>
+                    </div>
+
+                    <a href="https://github.com/alfiyandwi254/DashboardChocolateSales.git" class="button" target="_blank">
+                        Go to GitHub <i class="fa fa-play" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <!--End Content Right Side-->
+
+                <div class="col-3">
+                    <img src="images/Dashboard.jpg" alt="Dashboard"/>
+                </div>
+
+            </div>
+            
+            <div class="row no-padding-bottom clearfix">
+
+                <!--Content Left Side-->
+                <div class="col-3">
+
+                </div>
+                <!--End Content Left Side-->
+
+                <!--Content of the Right Side-->
+                <div class="col-3">
+                    <div class="section-heading">
+                        <!-- <h3>PROJECT</h3> -->
+                        <h2 class="section-title">Simple Web Scraping</h2>
+                        <p class="section-subtitle">Webscraping all pages catalogue from <a href="https://www.opentrolley.co.id">opentrolley</a> with selenium packages in Python</p>
                     </div>
 
                     <a href="https://github.com/alfiyandwi254/webscraping" class="button" target="_blank">
@@ -274,11 +303,10 @@
                 <!--End Content Right Side-->
 
                 <div class="col-3">
-                    <img src="images/elephant.svg" alt="gajah"/>
+                    <img src="images/WebScrapping.png" alt="gajah"/>
                 </div>
-
+                    
             </div>
-
 
         </div>
         <!--End of Content Section-->
